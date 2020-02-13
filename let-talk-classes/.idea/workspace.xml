@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="becd767b-6db8-4cd3-8c63-ecca1b754ce1" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="macos_macos_x86_64" />
+  <component name="FavoritesManager">
+    <favorites_list name="let-talk-classes" />
+  </component>
+  <component name="ProjectId" id="1XftYhrUFpZPcwXB90IJ9oj03oK" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="manualOrder" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="OBJC.PRESERVED_TARGET_SELECTION" value="let-talk-classes" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration name="let-talk-classes" type="AppleRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="let-talk-classes" TARGET_NAME="let-talk-classes" CONFIG_NAME="Debug" SCHEME_NAME="let-talk-classes" IS_LOCATION_SIMULATION_ALLOWED="true" APPLICATION_LANGUAGE="IDELaunchSchemeLanguageUseSystemLanguage" APPLICATION_REGION="" RUN_TARGET_PROJECT_NAME="let-talk-classes" RUN_TARGET_NAME="let-talk-classes" MAKE_ACTIVE="TRUE" SHOULD_DEBUG_EXTENSIONS="false">
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <embedded_app_extension_list />
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="becd767b-6db8-4cd3-8c63-ecca1b754ce1" name="Default Changelist" comment="" />
+      <created>1581449026213</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581449026213</updated>
+      <workItem from="1581449032618" duration="949000" />
+      <workItem from="1581450127498" duration="3454000" />
+      <workItem from="1581521895146" duration="16000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="453" y="260" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581456294598">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="453" y="260" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1581456294598" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1581521021336">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1581521021336" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1581521021334">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1581521021334" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1581521021334">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1581521021334" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1581521021335">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1581521021335" />
+    <state x="393" y="267" key="com.intellij.ide.util.TipDialog" timestamp="1581521895688">
+      <screen x="0" y="23" width="1440" height="820" />
+    </state>
+    <state x="393" y="267" key="com.intellij.ide.util.TipDialog/0.23.1440.820@0.23.1440.820" timestamp="1581521895688" />
+    <state x="385" y="210" key="run.anything.popup" timestamp="1581449366160">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="210" key="run.anything.popup/0.0.1440.900@0.0.1440.900" timestamp="1581449366160" />
+  </component>
+</project>

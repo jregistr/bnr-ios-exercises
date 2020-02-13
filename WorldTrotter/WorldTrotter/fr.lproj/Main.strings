@@ -1,0 +1,36 @@
+
+/* Class = "UITabBarItem"; title = "Convert"; ObjectID = "2RI-9C-hsB"; */
+"2RI-9C-hsB.title" = "Convertir";
+
+/* Class = "UISegmentedControl"; 2bt-Pd-LXz.segmentTitles[0] = "Standard"; ObjectID = "2bt-Pd-LXz"; */
+"2bt-Pd-LXz.segmentTitles[0]" = "Normale";
+
+/* Class = "UISegmentedControl"; 2bt-Pd-LXz.segmentTitles[1] = "Hybrid"; ObjectID = "2bt-Pd-LXz"; */
+"2bt-Pd-LXz.segmentTitles[1]" = "Hybride";
+
+/* Class = "UISegmentedControl"; 2bt-Pd-LXz.segmentTitles[2] = "Satelite"; ObjectID = "2bt-Pd-LXz"; */
+"2bt-Pd-LXz.segmentTitles[2]" = "Satellite";
+
+/* Class = "UITextField"; text = "222"; ObjectID = "B6S-2K-Hx5"; */
+"B6S-2K-Hx5.text" = "222";
+
+/* Class = "UILabel"; text = "is really"; ObjectID = "F0A-SP-Ibi"; */
+"F0A-SP-Ibi.text" = "est";
+
+/* Class = "UILabel"; text = "100"; ObjectID = "L2a-6k-oY1"; */
+"L2a-6k-oY1.text" = "100";
+
+/* Class = "UITabBarItem"; title = "Map"; ObjectID = "RKa-xT-XR8"; */
+"RKa-xT-XR8.title" = "Plans";
+
+/* Class = "UILabel"; text = "degrees Celcius"; ObjectID = "UGZ-jl-rcI"; */
+"UGZ-jl-rcI.text" = "degré Celsius";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "WHc-8i-PS2"; */
+"WHc-8i-PS2.text" = "Selon le professeur latin Richard McClintock, l'homme reconnu pour avoir découvert les racines de Lorem Ipsum, il est probable qu'au Moyen Âge, un typographe a brouillé une partie de De Finibus de Cicéron afin de fournir un texte d'espace libre pour mettre en forme des polices variées pour un spécimen. Mais ce n'était que le début.";
+
+/* Class = "UILabel"; text = "Degrees Fahrenheit"; ObjectID = "iJJ-CJ-iYw"; */
+"iJJ-CJ-iYw.text" = "Degré Fahrenheit";
+
+/* Class = "UITabBarItem"; title = "Poetry"; ObjectID = "mUM-As-szP"; */
+"mUM-As-szP.title" = "Poésie";
