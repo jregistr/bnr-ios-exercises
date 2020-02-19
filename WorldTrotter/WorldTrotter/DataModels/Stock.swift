@@ -8,9 +8,9 @@
 
 import UIKit
 
-class Stock {
-    let name: String
-    let abbrv: String
+class Stock : Codable {
+    var name: String
+    var abbrv: String
     
     var valueInDollars: Int = 0
     var lastUpdated: Date? = nil
@@ -25,23 +25,47 @@ class Stock {
     convenience init(name: String, abbrv: String) {
         self.init(name: name, abbrv: abbrv, value: 0)
     }
-    
+
 }
 
-let baseNames = ["Fluffy", "Cookwares", "Micro", "Pear", "Fruity", "Energy", "Pen", "Pens", "Star", "Brook"]
+let baseNames = ["Fluffy", "Cookwares", "Micro", "Pear", "Fruity", "Energy", "Pen", "Pens", "Star", "Brook", "Capital", "Gains", "Flower", "Life", "Motors", "Property"]
 let alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-let glues = [1, 2, 3]
+
+func randName() -> String {
+    let count = Int.random(in: 1...4)
+    var concat = ""
+    for _ in 1...count {
+        concat += " \(baseNames.randomElement()!)"
+    }
+    return concat
+}
+
+func randAbbrv() -> String {
+    let count = Int.random(in: 1...4)
+    var concat = ""
+    for _ in 1...count {
+        concat += String(alphabet.randomElement()!)
+    }
+    return concat
+}
 
 extension Stock {
     
-    func randName() -> String {
-        let count = glues.randomElement()!
-        var concat = ""
-        for _ in 0...count {
-            concat += baseNames.randomElement()!
+    convenience init(random: Bool = false) {
+        if random {
+            let name = randName()
+            let abbrv = randAbbrv()
+            let value = Int.random(in: 0...5000)
+            self.init(name: name, abbrv: abbrv, value: value)
+        } else {
+            self.init(name: "", abbrv: "", value: 0)
         }
-        return concat
     }
-    
-    
+}
+
+extension Stock : Equatable {
+    static func ==(lhs: Stock, rhs: Stock) -> Bool {
+        lhs.name == rhs.name &&
+            lhs.valueInDollars == rhs.valueInDollars
+    }
 }

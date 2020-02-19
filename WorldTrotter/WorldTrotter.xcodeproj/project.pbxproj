@@ -10,6 +10,8 @@
 		3109183923F5FA5100FF70EE /* StocksTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3109183823F5FA5100FF70EE /* StocksTableController.swift */; };
 		3109183C23F5FB2A00FF70EE /* Stock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3109183B23F5FB2A00FF70EE /* Stock.swift */; };
 		3109183E23F6029E00FF70EE /* StockDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3109183D23F6029E00FF70EE /* StockDatabase.swift */; };
+		3109184123F712EF00FF70EE /* StockTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3109184023F712EF00FF70EE /* StockTableViewCell.swift */; };
+		3109184323FC47EA00FF70EE /* DetailedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3109184223FC47EA00FF70EE /* DetailedViewController.swift */; };
 		3189504A23F48DD300A31E20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3189504923F48DD300A31E20 /* AppDelegate.swift */; };
 		3189504C23F48DD300A31E20 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3189504B23F48DD300A31E20 /* SceneDelegate.swift */; };
 		3189504E23F48DD300A31E20 /* TemperatureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3189504D23F48DD300A31E20 /* TemperatureViewController.swift */; };
@@ -45,6 +47,8 @@
 		3109183823F5FA5100FF70EE /* StocksTableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StocksTableController.swift; sourceTree = "<group>"; };
 		3109183B23F5FB2A00FF70EE /* Stock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stock.swift; sourceTree = "<group>"; };
 		3109183D23F6029E00FF70EE /* StockDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockDatabase.swift; sourceTree = "<group>"; };
+		3109184023F712EF00FF70EE /* StockTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockTableViewCell.swift; sourceTree = "<group>"; };
+		3109184223FC47EA00FF70EE /* DetailedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedViewController.swift; sourceTree = "<group>"; };
 		3189504623F48DD200A31E20 /* WorldTrotter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldTrotter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3189504923F48DD300A31E20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3189504B23F48DD300A31E20 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -96,6 +100,14 @@
 			path = DataModels;
 			sourceTree = "<group>";
 		};
+		3109183F23F712C200FF70EE /* CustomUI */ = {
+			isa = PBXGroup;
+			children = (
+				3109184023F712EF00FF70EE /* StockTableViewCell.swift */,
+			);
+			path = CustomUI;
+			sourceTree = "<group>";
+		};
 		3189503D23F48DD200A31E20 = {
 			isa = PBXGroup;
 			children = (
@@ -119,6 +131,7 @@
 		3189504823F48DD200A31E20 /* WorldTrotter */ = {
 			isa = PBXGroup;
 			children = (
+				3109183F23F712C200FF70EE /* CustomUI */,
 				3109183A23F5FB0F00FF70EE /* DataModels */,
 				3189504923F48DD300A31E20 /* AppDelegate.swift */,
 				3189504B23F48DD300A31E20 /* SceneDelegate.swift */,
@@ -129,6 +142,7 @@
 				3189505723F48DD300A31E20 /* Info.plist */,
 				3189507923F4A88D00A31E20 /* MapViewController.swift */,
 				3109183823F5FA5100FF70EE /* StocksTableController.swift */,
+				3109184223FC47EA00FF70EE /* DetailedViewController.swift */,
 			);
 			path = WorldTrotter;
 			sourceTree = "<group>";
@@ -285,8 +299,10 @@
 			files = (
 				3189504E23F48DD300A31E20 /* TemperatureViewController.swift in Sources */,
 				3189504A23F48DD300A31E20 /* AppDelegate.swift in Sources */,
+				3109184123F712EF00FF70EE /* StockTableViewCell.swift in Sources */,
 				3109183C23F5FB2A00FF70EE /* Stock.swift in Sources */,
 				3109183E23F6029E00FF70EE /* StockDatabase.swift in Sources */,
+				3109184323FC47EA00FF70EE /* DetailedViewController.swift in Sources */,
 				3109183923F5FA5100FF70EE /* StocksTableController.swift in Sources */,
 				3189504C23F48DD300A31E20 /* SceneDelegate.swift in Sources */,
 				3189507A23F4A88D00A31E20 /* MapViewController.swift in Sources */,
